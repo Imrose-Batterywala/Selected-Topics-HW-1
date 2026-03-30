@@ -6,7 +6,7 @@ import timm
 import torch.nn as nn
 
 
-DEFAULT_BACKBONE = "seresnextaa101d_32x8d.sw_in12k_ft_in1k"
+DEFAULT_BACKBONE = "resnet152.a1h_in1k"
 BACKBONE_ALIASES: dict[str, str] = {
     "resnet152": DEFAULT_BACKBONE,
     "seresnext101": "seresnext101_32x4d.gluon_in1k",
