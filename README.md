@@ -4,7 +4,7 @@ Name: Imrose Batterywala
 
 Student ID: 314540010
 
-This homework focused on using ResNet as a backbone for an image classification task. The dataset was that of 100 classes.
+This homework focused on fine-tuning timm backbones for a 100-class image classification task.
 
 ## Setup
 
